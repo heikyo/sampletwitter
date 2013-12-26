@@ -1,0 +1,119 @@
+map:{
+    ; 2013/12/25 03:06:34 = map:{
+        ; diffDate = 2013/12/25 03:06:34
+        ; tableDiff = map:{
+            ; user = map:{
+                ; tableName = user
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; password = map:{
+                        ; columnName = password
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = CHAR
+                            ; previous = BINARY
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2013/12/25 01:53:16 = map:{
+        ; diffDate = 2013/12/25 01:53:16
+        ; tableDiff = map:{
+            ; relationship = map:{
+                ; tableName = relationship
+                ; diffType = CHANGE
+                ; uniqueKeyDiff = map:{
+                    ; follow_id = map:{
+                        ; constraintName = follow_id
+                        ; diffType = ADD
+                    }
+                }
+                ; indexDiff = map:{
+                    ; follow_id = map:{
+                        ; constraintName = follow_id
+                        ; diffType = DELETE
+                    }
+                }
+            }
+            ; tweet = map:{
+                ; tableName = tweet
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; tweet = map:{
+                        ; columnName = tweet
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = CHAR
+                            ; previous = VARCHAR
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 140
+                            ; previous = 255
+                        }
+                    }
+                }
+            }
+            ; user = map:{
+                ; tableName = user
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; username = map:{
+                        ; columnName = username
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = CHAR
+                            ; previous = VARCHAR
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 50
+                            ; previous = 255
+                        }
+                    }
+                    ; password = map:{
+                        ; columnName = password
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = BINARY
+                            ; previous = VARCHAR
+                        }
+                    }
+                    ; email = map:{
+                        ; columnName = email
+                        ; diffType = CHANGE
+                        ; dbTypeDiff = map:{
+                            ; next = CHAR
+                            ; previous = VARCHAR
+                        }
+                        ; columnSizeDiff = map:{
+                            ; next = 100
+                            ; previous = 255
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ; 2013/12/24 15:45:44 = map:{
+        ; diffDate = 2013/12/24 15:45:44
+        ; tableDiff = map:{
+            ; relationship = map:{
+                ; tableName = relationship
+                ; diffType = CHANGE
+                ; columnDiff = map:{
+                    ; id = map:{
+                        ; columnName = id
+                        ; diffType = ADD
+                    }
+                }
+                ; primaryKeyDiff = map:{
+                    ; PRIMARY = map:{
+                        ; constraintName = PRIMARY
+                        ; diffType = ADD
+                    }
+                }
+            }
+        }
+    }
+}

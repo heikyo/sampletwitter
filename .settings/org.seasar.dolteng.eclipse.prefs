@@ -1,0 +1,8 @@
+DaoType=S2Dao
+DefaultResourcePath=/twitter_sample/src/main/resources
+DefaultRootPackage=com.sample.twitter
+DefaultSrcPath=/twitter_sample/src/main/java
+ServletPath=/twitter_sample
+ViewType=SA-Struts
+WebContentsRoot=src/main/webapp/
+eclipse.preferences.version=1

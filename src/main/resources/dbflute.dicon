@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE components PUBLIC "-//SEASAR2.1//DTD S2Container//EN"
+    "http://www.seasar.org/dtd/components21.dtd">
+
+<components namespace="dbflute">
+    <include path="j2ee.dicon"/>
+
+    <!-- The components of DBFlute Runtime. -->
+    <component name="introduction" class="com.sample.twitter.dbflute.allcommon.DBFluteInitializer"/>
+    <component name="invokerAssistant" class="com.sample.twitter.dbflute.allcommon.ImplementedInvokerAssistant"/>
+    <component name="commonColumnAutoSetupper" class="com.sample.twitter.dbflute.allcommon.ImplementedCommonColumnAutoSetupper"/>
+    <component name="behaviorSelector" class="com.sample.twitter.dbflute.allcommon.ImplementedBehaviorSelector"/>
+    <component name="behaviorCommandInvoker" class="org.seasar.dbflute.bhv.core.BehaviorCommandInvoker"/>
+
+    <!-- The components of Behavior. -->
+    <component name="relationshipBhv" class="com.sample.twitter.dbflute.exbhv.RelationshipBhv"/>
+    <component name="tweetBhv" class="com.sample.twitter.dbflute.exbhv.TweetBhv"/>
+    <component name="userBhv" class="com.sample.twitter.dbflute.exbhv.UserBhv"/>
+</components>
